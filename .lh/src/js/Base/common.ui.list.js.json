@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/js/Base/common.ui.list.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1697433217916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1697433217916,
+            "name": "Commit-0",
+            "content": "\n\nconst commoUiList = [\n  {\n    className: '.ui-accordion',\n    classObject: 'Accordion'\n  },\n  {\n    className: '.ui-popup',\n    classObject: 'Popup'\n  }\n]"
+        }
+    ]
+}

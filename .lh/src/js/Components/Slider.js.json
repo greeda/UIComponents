@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/js/Components/Slider.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1697428925755,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1697428925755,
+            "name": "Commit-0",
+            "content": "export default class Slider extends UI {\n  constructor(el, options) {\n    super('Slider');\n  }\n\n  render() {\n\n  }\n\n  bindEvents() {\n\n  }\n\n  attachEvents() {\n\n  }\n\n  detachEvents() {\n\n  }\n\n  destroy() {\n    \n  }\n}"
+        }
+    ]
+}

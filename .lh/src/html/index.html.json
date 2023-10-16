@@ -1,0 +1,66 @@
+{
+    "sourceFile": "src/html/index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1697422766023,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1697422771177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n <body>\n   <div id=\"wrap\">\n     <div id=\"container\">\n       <nav class=\"nav\">\n-        <ul>\n+        <ul class=\"nav-list\">\n           <li>\n             <a href=\"#\">Accordion</a>\n           </li>\n         </ul>\n"
+                },
+                {
+                    "date": 1697422811129,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,11 @@\n </head>\n <body>\n   <div id=\"wrap\">\n     <div id=\"container\">\n+      <header id=\"header\">\n+        \n+      </header>\n       <nav class=\"nav\">\n         <ul class=\"nav-list\">\n           <li>\n             <a href=\"#\">Accordion</a>\n"
+                },
+                {
+                    "date": 1697422822882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,17 +8,20 @@\n <body>\n   <div id=\"wrap\">\n     <div id=\"container\">\n       <header id=\"header\">\n-        \n+\n       </header>\n       <nav class=\"nav\">\n         <ul class=\"nav-list\">\n           <li>\n             <a href=\"#\">Accordion</a>\n           </li>\n         </ul>\n       </nav>\n+      <div class=\"contents\">\n+        \n+      </div>\n     </div>\n   </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1697422829845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,11 @@\n           </li>\n         </ul>\n       </nav>\n       <div class=\"contents\">\n-        \n+        <div class=\"contents-inner\">\n+          \n+        </div>\n       </div>\n     </div>\n   </div>\n </body>\n"
+                },
+                {
+                    "date": 1697422846668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,15 +13,18 @@\n       </header>\n       <nav class=\"nav\">\n         <ul class=\"nav-list\">\n           <li>\n+            <a href=\"#\">Popup</a>\n+          </li>\n+          <li>\n             <a href=\"#\">Accordion</a>\n           </li>\n         </ul>\n       </nav>\n       <div class=\"contents\">\n         <div class=\"contents-inner\">\n-          \n+\n         </div>\n       </div>\n     </div>\n   </div>\n"
+                },
+                {
+                    "date": 1697422859801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <!DOCTYPE html>\n-<html lang=\"en\">\n+<html lang=\"ko\">\n <head>\n   <meta charset=\"UTF-8\">\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n   <title>Document</title>\n"
+                },
+                {
+                    "date": 1697427770789,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,19 @@\n         </ul>\n       </nav>\n       <div class=\"contents\">\n         <div class=\"contents-inner\">\n-\n+          <div class=\"ui-accordion\">\n+            <div class=\"accordion-header-info\">\n+              <strong class=\"title\">아코티언 타이틀1</strong>\n+              <i class=\"ico-arr\" aria-hidden=\"true\"></i>\n+            </div>\n+            <div class=\"accordion-contents-info\">\n+              <div class=\"accordion-contents-inner\">\n+                아코디언 내용...\n+              </div>\n+            </div>\n+          </div>\n         </div>\n       </div>\n     </div>\n   </div>\n"
+                },
+                {
+                    "date": 1697430251424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n <body>\n   <div id=\"wrap\">\n     <div id=\"container\">\n       <header id=\"header\">\n-\n+        ㅕ\n       </header>\n       <nav class=\"nav\">\n         <ul class=\"nav-list\">\n           <li>\n"
+                },
+                {
+                    "date": 1697430264616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n <body>\n   <div id=\"wrap\">\n     <div id=\"container\">\n       <header id=\"header\">\n-        ㅕ\n+\n       </header>\n       <nav class=\"nav\">\n         <ul class=\"nav-list\">\n           <li>\n@@ -23,20 +23,20 @@\n       </nav>\n       <div class=\"contents\">\n         <div class=\"contents-inner\">\n           <div class=\"ui-accordion\">\n-            <div class=\"accordion-header-info\">\n-              <strong class=\"title\">아코티언 타이틀1</strong>\n-              <i class=\"ico-arr\" aria-hidden=\"true\"></i>\n-            </div>\n-            <div class=\"accordion-contents-info\">\n-              <div class=\"accordion-contents-inner\">\n-                아코디언 내용...\n-              </div>\n-            </div>\n-          </div>\n+      <div class=\"accordion-header-info\">\n+        <strong class=\"title\">아코티언 타이틀1</strong>\n+        <i class=\"ico-arr\" aria-hidden=\"true\"></i>\n+      </div>\n+      <div class=\"accordion-contents-info\">\n+        <div class=\"accordion-contents-inner\">\n+          아코디언 내용...\n         </div>\n       </div>\n     </div>\n+        </div>\n+      </div>\n+    </div>\n   </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1697430322284,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,21 @@\n <body>\n   <div id=\"wrap\">\n     <div id=\"container\">\n       <header id=\"header\">\n-\n+        <nav class=\"header-nav\">\n+          <ul class=\"header-nav-list\">\n+            <li>\n+              <a href=\"#\">DOCUMENTATION</a>\n+            </li>\n+            <li>\n+              <a href=\"#\">DOCUMENTATION</a>\n+            </li>\n+            <li>\n+              <a href=\"#\">BLOG</a>\n+            </li>\n+          </ul>\n+        </nav>\n       </header>\n       <nav class=\"nav\">\n         <ul class=\"nav-list\">\n           <li>\n@@ -23,20 +35,20 @@\n       </nav>\n       <div class=\"contents\">\n         <div class=\"contents-inner\">\n           <div class=\"ui-accordion\">\n-      <div class=\"accordion-header-info\">\n-        <strong class=\"title\">아코티언 타이틀1</strong>\n-        <i class=\"ico-arr\" aria-hidden=\"true\"></i>\n-      </div>\n-      <div class=\"accordion-contents-info\">\n-        <div class=\"accordion-contents-inner\">\n-          아코디언 내용...\n+            <div class=\"accordion-header-info\">\n+              <strong class=\"title\">아코티언 타이틀1</strong>\n+              <i class=\"ico-arr\" aria-hidden=\"true\"></i>\n+            </div>\n+            <div class=\"accordion-contents-info\">\n+              <div class=\"accordion-contents-inner\">\n+                아코디언 내용...\n+              </div>\n+            </div>\n+          </div>\n         </div>\n       </div>\n     </div>\n-        </div>\n-      </div>\n-    </div>\n   </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1697430353175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n             <li>\n               <a href=\"#\">DOCUMENTATION</a>\n             </li>\n             <li>\n-              <a href=\"#\">DOCUMENTATION</a>\n+              <a href=\"#\">GUIDE</a>\n             </li>\n             <li>\n               <a href=\"#\">BLOG</a>\n             </li>\n"
+                },
+                {
+                    "date": 1697430440402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,13 @@\n <body>\n   <div id=\"wrap\">\n     <div id=\"container\">\n       <header id=\"header\">\n+        <h1 class=\"logo\">\n+          <a href=\"#\">\n+            <img src=\"\" alt=\"\">\n+          </a>\n+        </h1>\n         <nav class=\"header-nav\">\n           <ul class=\"header-nav-list\">\n             <li>\n               <a href=\"#\">DOCUMENTATION</a>\n"
+                }
+            ],
+            "date": 1697422766023,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Document</title>\n</head>\n<body>\n  <div id=\"wrap\">\n    <div id=\"container\">\n      <nav class=\"nav\">\n        <ul>\n          <li>\n            <a href=\"#\">Accordion</a>\n          </li>\n        </ul>\n      </nav>\n    </div>\n  </div>\n</body>\n</html>"
+        }
+    ]
+}
