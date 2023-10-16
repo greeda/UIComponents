@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/js/Components/Popup.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1697421451620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1697421451620,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}

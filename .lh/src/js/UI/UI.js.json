@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/js/UI/UI.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1697421554961,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1697421569961,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,11 @@\n \n \n-export class UI {\n+export default class UI {\n   constructor() {\n \n   }\n \n   render() {\n     \n   }\n-\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1697421554961,
+            "name": "Commit-0",
+            "content": "\n\nexport class UI {\n  constructor() {\n\n  }\n\n  render() {\n    \n  }\n\n}"
+        }
+    ]
+}
