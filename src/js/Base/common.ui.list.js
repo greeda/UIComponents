@@ -1,12 +1,14 @@
+import { Accordion, Popup } from "../Components";
 
-
-const commoUiList = [
+const commonUiList = [
   {
-    className: '.ui-accordion',
-    classObject: 'Accordion'
+    className: ".ui-accordion",
+    classObject: Accordion,
   },
   {
-    className: '.ui-popup',
-    classObject: 'Popup'
-  }
-]
+    className: ".ui-popup",
+    classObject: Popup,
+  },
+];
+
+export default commonUiList;

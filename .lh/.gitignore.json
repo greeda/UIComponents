@@ -1,18 +1,18 @@
 {
-    "sourceFile": "src/js/Base/common.ui.list.js",
+    "sourceFile": ".gitignore",
     "activeCommit": 0,
     "commits": [
         {
             "activePatchIndex": 0,
             "patches": [
                 {
-                    "date": 1697433217916,
+                    "date": 1697534068971,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
                 }
             ],
-            "date": 1697433217916,
+            "date": 1697534068970,
             "name": "Commit-0",
-            "content": "\n\nconst commoUiList = [\n  {\n    className: '.ui-accordion',\n    classObject: 'Accordion'\n  },\n  {\n    className: '.ui-popup',\n    classObject: 'Popup'\n  }\n]"
+            "content": "node_modules\n"
         }
     ]
 }
